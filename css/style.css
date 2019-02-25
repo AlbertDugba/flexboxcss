@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Bree Serif", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+/* Utility Classes */
+.text-primary {
+  color: #93cb52;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: white;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: #fff;
+  padding: 0.7rem;
+}
+
+#navbar ul li a:hover {
+  border-bottom: 2.3px solid #939393;
+  border-radius: 5px;
+}
